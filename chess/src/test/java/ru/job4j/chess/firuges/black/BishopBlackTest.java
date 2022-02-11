@@ -1,6 +1,5 @@
 package ru.job4j.chess.firuges.black;
 
-import org.junit.Ignore;
 import org.junit.Test;
 import ru.job4j.chess.firuges.Cell;
 
@@ -23,7 +22,6 @@ public class BishopBlackTest {
         assertThat(bishopBlack.copy(Cell.B7).position(), is(expected.position()));
     }
 
-    @Ignore
     @Test
     public void way() {
         BishopBlack bishopBlack = new BishopBlack(Cell.C1);
